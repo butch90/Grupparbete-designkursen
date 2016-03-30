@@ -20,7 +20,7 @@ body {
 
 .nav ul {
     list-style-type: none;
-    margin-top: 0;
+    margin-top: 25px;
     padding: 0;
     width: 100%;
     overflow: hidden;
@@ -40,6 +40,7 @@ body {
     transition: 0.5s;
     font-family: Geforce;
     font-size: 1.7em;
+
 }
 
 .nav li a:hover {
@@ -97,8 +98,8 @@ body {
     margin-left: 10px;
 }
 #logo {
-    width: 512px;
-    height: 115px;
+    width: 218px;
+    height: 57px;
     margin-top: 20px;
 
 }
