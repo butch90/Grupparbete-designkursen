@@ -62,7 +62,7 @@ body {
 }
 
 .main {
-<<<<<<< HEAD
+
 
 }
 
@@ -122,7 +122,7 @@ body {
     width:250px;
     height: 280px;
     margin-left: 10px;
-=======
+
 
 }
 
@@ -133,7 +133,7 @@ body {
     margin-left: 10%;
     margin-top: 10%;
     padding: 10px;
->>>>>>> 709731d78313302468bf31d91e1a5505327777c1
+
 }
 #row {
     display:table-row;
@@ -143,8 +143,9 @@ body {
     background-color:red;
     width:250px;
     height: 280px;
+}
 
-<<<<<<< HEAD
+
 #round-button {
     width:100px;
 }
@@ -226,7 +227,7 @@ body {
 
 .paragraph {
     padding-left: 250px; 
-=======
+
 }
 #second {
     display:table-cell;
@@ -247,5 +248,4 @@ body {
     height: 57px;
     margin-top: 20px;
 
->>>>>>> 709731d78313302468bf31d91e1a5505327777c1
 }
