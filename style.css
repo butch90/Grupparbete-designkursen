@@ -4,8 +4,14 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
 
+}
+@font-face {
+    font-family: Ailerons;
+    src: url("public/fonts/Ailerons-Typeface.otf");
+    font-family: Stellar;
+    src: url("public/fonts/Stellar-light.otf");
+}
 .nav {
 	float: right;
 }
@@ -29,10 +35,18 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 0.5s;
+    font-family: Ailerons;
+    font-size: 1.7em;
 }
 
 .nav li a:hover {
-    background-color: #29A111;
+    /*background-color: #29A111;*/
+    font-size: 1.9em;
+    text-shadow: -1.3px 0 white, 0 1.3px white, 1.3px 0 white, 0 -1.3px white;
+    color: #76b900;
+    
+    
 }
 
 .header {
