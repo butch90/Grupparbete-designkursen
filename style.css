@@ -11,6 +11,8 @@ body {
     src: url("public/fonts/Ailerons-Typeface.otf");
     font-family: Stellar;
     src: url("public/fonts/Stellar-light.otf");
+    font-family: Geforce;
+    src: url("public/fonts/Geforce-bold.ttf");
 }
 .nav {
 	float: right;
@@ -36,7 +38,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.5s;
-    font-family: Ailerons;
+    font-family: Geforce;
     font-size: 1.7em;
 }
 
@@ -93,4 +95,10 @@ body {
     width:250px;
     height: 280px;
     margin-left: 10px;
+}
+#logo {
+    width: 512px;
+    height: 115px;
+    margin-top: 20px;
+
 }
