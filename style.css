@@ -4,15 +4,23 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-}
 
+}
+@font-face {
+    font-family: Ailerons;
+    src: url("public/fonts/Ailerons-Typeface.otf");
+    font-family: Stellar;
+    src: url("public/fonts/Stellar-light.otf");
+    font-family: Geforce;
+    src: url("public/fonts/Geforce-bold.ttf");
+}
 .nav {
 	float: right;
 }
 
 .nav ul {
     list-style-type: none;
-    margin-top: 0;
+    margin-top: 25px;
     padding: 0;
     width: 100%;
     overflow: hidden;
@@ -29,10 +37,19 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 0.5s;
+    font-family: Geforce;
+    font-size: 1.7em;
+
 }
 
 .nav li a:hover {
-    background-color: #29A111;
+    /*background-color: #29A111;*/
+    font-size: 1.9em;
+    text-shadow: -1.3px 0 white, 0 1.3px white, 1.3px 0 white, 0 -1.3px white;
+    color: #76b900;
+    
+    
 }
 
 .header {
@@ -45,6 +62,7 @@ body {
 }
 
 .main {
+<<<<<<< HEAD
 
 }
 
@@ -104,8 +122,29 @@ body {
     width:250px;
     height: 280px;
     margin-left: 10px;
+=======
+
 }
 
+#wrapper {
+    display:table;
+    width:80%;
+    height: auto;
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 10px;
+>>>>>>> 709731d78313302468bf31d91e1a5505327777c1
+}
+#row {
+    display:table-row;
+}
+#first {
+    display:table-cell;
+    background-color:red;
+    width:250px;
+    height: 280px;
+
+<<<<<<< HEAD
 #round-button {
     width:100px;
 }
@@ -187,4 +226,26 @@ body {
 
 .paragraph {
     padding-left: 250px; 
+=======
+}
+#second {
+    display:table-cell;
+    background-color:blue;
+    width:250px;
+    height: 280px;
+    margin-left: 10px;
+}
+#third {
+    display:table-cell;
+    background-color:#bada55;
+    width:250px;
+    height: 280px;
+    margin-left: 10px;
+}
+#logo {
+    width: 218px;
+    height: 57px;
+    margin-top: 20px;
+
+>>>>>>> 709731d78313302468bf31d91e1a5505327777c1
 }
