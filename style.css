@@ -80,19 +80,6 @@ body {
     display:table-row;
 }
 
-#wrapper2 {
-    display:table;
-    width:80%;
-    height: auto;
-    margin-left: 10%;
-    margin-top: 1%;
-    padding: 10px;
-}
-
-#row2 {
-    display:table-row;
-}
-
 #first {
     display:table-cell;
     background-color:red;
@@ -139,13 +126,6 @@ body {
 #row {
     display:table-row;
 }
-#first {
-    display:table-cell;
-    background-color:red;
-    width:250px;
-    height: 280px;
-}
-
 
 #round-button {
     width:100px;
@@ -183,67 +163,6 @@ body {
     text-decoration:none;
 }
 
-#round-button-circle2 {
-    width: 100%;
-    height:0;
-    padding-bottom: 100%;
-    border-radius: 50%;
-    border:3px solid;
-    overflow:hidden; 
-    background: white; 
-    box-shadow: 0 0 3px gray;
-    margin-left:475px;
-}
-
-#round-button-circle2:hover {
-    background:grey;
-}
-
-#round-button-circle3 {
-    width: 100%;
-    height:0;
-    padding-bottom: 100%;
-    border-radius: 50%;
-    border:3px solid;
-    overflow:hidden; 
-    background: white; 
-    box-shadow: 0 0 3px gray;
-    margin-left:825px;
-}
-
-#round-button-circle3:hover {
-    background:grey;
-}
-
-.fotter {
-    margin-top: 12%;
-    background-color: white;
-    height: 150px;
-}
-
-.heading3 {
-    padding-top: 15px;
-    padding-left: 250px;
-}
-
-.paragraph {
-    padding-left: 250px; 
-
-}
-#second {
-    display:table-cell;
-    background-color:blue;
-    width:250px;
-    height: 280px;
-    margin-left: 10px;
-}
-#third {
-    display:table-cell;
-    background-color:#bada55;
-    width:250px;
-    height: 280px;
-    margin-left: 10px;
-}
 #logo {
     width: 218px;
     height: 57px;
