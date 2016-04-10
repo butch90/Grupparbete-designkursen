@@ -63,13 +63,12 @@ body {
 
 .main {
 
-
 }
 
 #wrapper {
     display:table;
     width:80%;
-    height: auto;
+    height: 100px;
     margin-left: 10%;
     /*margin-top: 10%;*/
     margin-bottom: 10%;
@@ -211,4 +210,7 @@ button:hover {
     border-color: white;
     text-decoration: underline;     
   
+}
+footer {
+    position: inherit; 
 }
