@@ -30,7 +30,6 @@
   //   return doAjax('GET', id);
   // }
   //execute functions here
-<<<<<<< HEAD
       $( "#980ti" ).on('click', function() {
           console.log( "<p> was clicked" );
            $("#label").html('TOP OF THE LINE,CLICK HERE FOR MORE INFO'); 
@@ -45,7 +44,7 @@
                       '<h1>GTX980ti</h1>' +
                   '</div>'
           // $('.main').html('');
-          $('.header').append(panelHtml2);
+          // $('.header').append(panelHtml2);
           // $('.main').prepend(panelHtml);
            // $(".header").html('<style background-image: url(img/gtx980ti.png/>');
            }
@@ -65,7 +64,6 @@
       }).hover(function () {
          $("#label").html('3D-READY, GAMERS-CHOISE');
       });
-=======
 $( "#980ti" ).on('click', function(event) {
     console.log( "<p> was clicked" );
      $("#label").html('TOP OF THE LINE,CLICK HERE FOR MORE INFO'); 
@@ -102,7 +100,6 @@ $("#960").on('click', function(event) {
 }).hover(function () {
    $("#label").html('3D-READY, GAMERS-CHOISE');
 });
->>>>>>> 024a72f1875f40ed1c5ca71ac8e48d995594d68b
 console.log('hello world'); 
 
 function createPanel(id, title, content) {
