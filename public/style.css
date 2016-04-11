@@ -239,3 +239,8 @@ label {
     background-image: url(img/gtx980tiBox.png);
     min-height: 900px;
 }
+
+a {
+    color: green;
+    text-decoration: none;
+}
