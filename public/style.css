@@ -231,23 +231,21 @@ label {
     font-size: 3em;
     margin-left: 1em;
 }
+
 .productPage {
     font-size: 1.6em;
     padding: 0.2em;
     transition: 0.5s;
     font-family: Geforce;
     color: white;
-<<<<<<< HEAD
-    background-image: url(img/gtx980tiBox.png);
     height: 300px;
     background-repeat:  no-repeat; 
     margin-left: 20em;
-=======
     min-height: 900px;
+    background-position: 0px;
 }
 
 a {
-    color: green;
+    color: white;
     text-decoration: none;
->>>>>>> 024a72f1875f40ed1c5ca71ac8e48d995594d68b
 }
