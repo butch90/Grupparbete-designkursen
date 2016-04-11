@@ -213,7 +213,7 @@ button:hover {
   
 }
 footer {
-    /*position: inherit; */
+    position: inherit; 
 }
 section {
     color: transparent;
