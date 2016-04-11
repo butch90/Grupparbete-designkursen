@@ -213,7 +213,7 @@ button:hover {
   
 }
 footer {
-    /*position: inherit; */
+    position: inherit; 
 }
 section {
     color: transparent;
@@ -237,17 +237,14 @@ label {
     transition: 0.5s;
     font-family: Geforce;
     color: white;
-<<<<<<< HEAD
     background-image: url(img/gtx980tiBox.png);
     height: 300px;
     background-repeat:  no-repeat; 
     margin-left: 20em;
-=======
     min-height: 900px;
 }
 
 a {
     color: green;
     text-decoration: none;
->>>>>>> 024a72f1875f40ed1c5ca71ac8e48d995594d68b
 }
