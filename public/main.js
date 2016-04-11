@@ -43,9 +43,9 @@
                   '<div class="productPage">' +
                       '<h1>GTX980ti</h1>' +
                   '</div>'
-          $('.main').html('');
-          // $('.header').append(panelHtml2);
-          $('.main').prepend(panelHtml);
+          // $('.main').html('');
+          $('.header').append(panelHtml2);
+          // $('.main').prepend(panelHtml);
            // $(".header").html('<style background-image: url(img/gtx980ti.png/>');
            }
            createPanel();
