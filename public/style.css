@@ -238,3 +238,8 @@ label {
     color: white;
     min-height: 900px;
 }
+
+a {
+    color: green;
+    text-decoration: none;
+}
