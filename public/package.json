@@ -1,0 +1,26 @@
+{
+  "name": "grupparbete.designkursen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/butch90/Grupparbete-designkursen.git"
+  },
+  "author": "Olle Bengtsson, Marcus Wendel, Alexander Wigström, Andreas, Martin <ollebsson2@gmail.com> (http://ollebsson.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "https://github.com/butch90/Grupparbete-designkursen.git",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "body-parser": "^1.14.2",
+    "chai-http": "^2.0.1",
+    "express": "^4.13.4",
+    "express3-handlebars": "~0.5.0"
+  }
+}
